@@ -22,8 +22,10 @@ export default {
       },
     },
     screens: {
-      xs: { max: "359px" },
-      sm: { max: "767px" },
+      maxsm: { max: "767px" },
+      maxlg: { max: "1279px" },
+      xs: "360px",
+      sm: "412px",
       md: "768px",
       lg: "1024px",
       xl: "1280px",
